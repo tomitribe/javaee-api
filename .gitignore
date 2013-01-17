@@ -1,0 +1,10 @@
+/*.iml
+/*.ipr
+/*.iws
+/*.log
+/.classpath
+/.project
+/.settings
+/bin
+/junit*.properties
+/target

@@ -1,0 +1,14 @@
+* text=auto !eol
+/pom.xml -text
+src/main/assembly/javaee-api-libs.xml -text
+src/main/filtered-resources/javaee-api-feature.xml -text
+src/main/java/javax/ws/rs/core/UriBuilder.java -text
+src/main/java/javax/xml/bind/ContextFinder.java -text
+src/main/java/javax/xml/bind/DatatypeConverter.java -text
+src/main/java/org/apache/openejb/javaee/api/activator/MultiActivator.java svneol=native#text/plain
+src/main/java/org/apache/openejb/javaee/api/activator/org/apache/openejb/javaee/api/locator/ProviderLocator.java -text
+src/main/legal/META-INF/all/LICENSE -text
+src/main/legal/META-INF/all/NOTICE -text
+src/main/legal/META-INF/tomcat/LICENSE -text
+src/main/legal/META-INF/tomcat/NOTICE -text
+src/main/resources/META-INF/README.txt -text
