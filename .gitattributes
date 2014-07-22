@@ -2,7 +2,6 @@
 /pom.xml -text
 src/main/assembly/javaee-api-libs.xml -text
 src/main/filtered-resources/javaee-api-feature.xml -text
-src/main/java/javax/ws/rs/core/UriBuilder.java -text
 src/main/java/javax/xml/bind/ContextFinder.java -text
 src/main/java/javax/xml/bind/DatatypeConverter.java -text
 src/main/java/org/apache/openejb/javaee/api/activator/MultiActivator.java svneol=native#text/plain
