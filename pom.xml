@@ -171,8 +171,6 @@
                   <excludes>
                     <exclude>META-INF/*.txt</exclude>
                     <exclude>META-INF/LICENSE</exclude>
-                    <exclude>org/apache/geronimo/osgi/locator/ProviderLocator.class</exclude>
-                    <exclude>org/apache/geronimo/osgi/locator/Activator.class</exclude>
                   </excludes>
                 </filter>
                 <filter>
@@ -232,8 +230,6 @@
                     <exclude>META-INF/*.txt</exclude>
                     <exclude>META-INF/LICENSE</exclude>
                     <exclude>META-INF/NOTICE</exclude>
-                    <exclude>org/apache/geronimo/osgi/locator/ProviderLocator.class</exclude>
-                    <exclude>org/apache/geronimo/osgi/locator/Activator.class</exclude>
                   </excludes>
                 </filter>
                 <filter>
