@@ -30,13 +30,13 @@
   <artifactId>javaee-api</artifactId>
   <packaging>jar</packaging>
   <name>TomEE :: JavaEE 7 Full API (zip and jar files)</name>
-  <version>7.0-3-TT.2</version>
+  <version>7.0-3-SNAPSHOT</version>
 
   <scm>
     <connection>scm:git:git@github.com:tomitribe/javaee-api.git</connection>
     <developerConnection>scm:git:git@github.com:tomitribe/javaee-api.git</developerConnection>
     <url>scm:git:git@github.com:tomitribe/javaee-api.git</url>
-    <tag>javaee-api-7.0-3-TT.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
