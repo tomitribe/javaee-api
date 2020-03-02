@@ -28,7 +28,7 @@
 
   <groupId>org.apache.tomee</groupId>
   <artifactId>javaee-api</artifactId>
-  <version>8.0-5-SNAPSHOT</version>
+  <version>8.0-5-TT.1</version>
   <packaging>jar</packaging>
 
   <name>TomEE :: JavaEE 8 Full API</name>
@@ -42,6 +42,7 @@
     <connection>scm:git:git@github.com:tomitribe/javaee-api.git</connection>
     <developerConnection>scm:git:git@github.com:tomitribe/javaee-api.git</developerConnection>
     <url>scm:git:git@github.com:tomitribe/javaee-api.git</url>
+    <tag>javaee-api-8.0-5-TT.1</tag>
   </scm>
 
   <properties>
