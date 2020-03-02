@@ -39,9 +39,9 @@
 
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/tomee/javaee-api/trunk</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/tomee/javaee-api/trunk</developerConnection>
-    <url>http://svn.apache.org/viewvc/tomee/javaee-api/trunk</url>
+    <connection>scm:git:https://github.com/tomitribe/javaee-api.git</connection>
+    <developerConnection>scm:git:https://github.com/tomitribe/javaee-api.git</developerConnection>
+    <url>scm:git:https://github.com/tomitribe/javaee-api.git</url>
   </scm>
 
   <properties>
@@ -776,7 +776,25 @@
       <version>${tomcat.version}</version>
       <optional>true</optional>
     </dependency>
-
   </dependencies>
+  <repositories>
+    <repository>
+      <id>tomitribe-all</id>
+      <name>Tomitribe Repository</name>
+      <url>https://repository.tomitribe.com/content/groups/tomitribe/</url>
+    </repository>
+  </repositories>
+  <distributionManagement>
+    <repository>
+      <id>tomitribe.releases.https</id>
+      <name>Tomitribe Release Distribution Repository</name>
+      <url>https://repository.tomitribe.com/service/local/staging/deploy/maven2</url>
+    </repository>
 
+    <snapshotRepository>
+      <id>tomitribe.snapshots.https</id>
+      <name>Tomitribe Development Snapshot Repository</name>
+      <url>https://repository.tomitribe.com/content/repositories/snapshots-tomitribe</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
