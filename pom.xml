@@ -39,9 +39,9 @@
 
 
   <scm>
-    <connection>scm:git:git@github.com:tomitribe/javaee-api.git</connection>
-    <developerConnection>scm:git:git@github.com:tomitribe/javaee-api.git</developerConnection>
-    <url>scm:git:git@github.com:tomitribe/javaee-api.git</url>
+    <connection>scm:git:https://github.com/tomitribe/javaee-api.git</connection>
+    <developerConnection>scm:git:https://github.com/tomitribe/javaee-api.git</developerConnection>
+    <url>scm:git:https://github.com/tomitribe/javaee-api.git</url>
   </scm>
 
   <properties>
